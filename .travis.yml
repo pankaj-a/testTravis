@@ -1,0 +1,11 @@
+language: node_js
+before_install:
+  - echo 'BEFORE INSTALL'
+install:
+  - echo 'INSTALLING'
+before_before_script:
+  - echo 'BEFORE BEFORE SCRIPT'
+before_script:
+  - echo 'BEFORE SCRIPT'
+script:
+  - echo 'SCRIPT'
