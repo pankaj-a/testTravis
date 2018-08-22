@@ -6,4 +6,4 @@ install:
 before_script:
   - "node bs.js"
 script:
-  - "npm s.js"
+  - "node s.js"
