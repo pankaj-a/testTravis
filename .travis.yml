@@ -1,11 +1,16 @@
 language: node_js
 before_install:
-  - echo 'BEFORE INSTALL'
+  - bash echo $TRAVIS_BUILD_DIR
+  - bash echo 'BEFORE INSTALL'
 install:
-  - echo 'INSTALLING'
+  - bash echo $TRAVIS_BUILD_DIR
+  - bash echo 'INSTALLING'
 before_before_script:
-  - echo 'BEFORE BEFORE SCRIPT'
+  - bash echo $TRAVIS_BUILD_DIR
+  - bash echo 'BEFORE BEFORE SCRIPT'
 before_script:
-  - echo 'BEFORE SCRIPT'
+  - bash echo $TRAVIS_BUILD_DIR
+  - bash echo 'BEFORE SCRIPT'
 script:
-  - echo 'SCRIPT'
+  - bash echo $TRAVIS_BUILD_DIR
+  - bash echo 'SCRIPT'
