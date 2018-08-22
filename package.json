@@ -1,0 +1,23 @@
+{
+  "name": "testtravis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "i": "node i.js",
+    "bi": "node bi.js",
+    "s": "node s.js",
+    "bs": "node bs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ray-pankaj/testTravis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ray-pankaj/testTravis/issues"
+  },
+  "homepage": "https://github.com/ray-pankaj/testTravis#readme"
+}

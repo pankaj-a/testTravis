@@ -1,13 +1,9 @@
 language: node_js
 before_install:
-  - `echo $TRAVIS_BUILD_DIR`
-  - `echo 'BEFORE INSTALL'`
+  - "node bi.js"
 install:
-  - `echo $TRAVIS_BUILD_DIR`
-  - `echo 'INSTALLING'`
+  - "node i.js"
 before_script:
-  - `echo $TRAVIS_BUILD_DIR`
-  - `echo 'BEFORE SCRIPT'`
+  - "node bs.js"
 script:
-  - `echo $TRAVIS_BUILD_DIR`
-  - `echo 'SCRIPT'`
+  - "npm s.js"
