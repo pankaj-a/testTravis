@@ -1,9 +1,9 @@
-language: node_js
+language: ruby
 before_install:
-  - "node bi.js"
+  - ruby test.rb
 install:
-  - "node i.js"
+  - ruby test.rb
 before_script:
-  - "node bs.js"
+  - ruby test.rb
 script:
-  - "node s.js"
+  - ruby test.rb
