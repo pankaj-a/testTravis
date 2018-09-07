@@ -8,5 +8,5 @@ before_script:
 script:
   - ruby test.rb
   - curl "https://www.browserstack.com/app-automate/sample-apps/android/WikipediaSample.apk" -o "WikipediaSample.apk"
-  - export BROWSERSTACK_APP_ID=`curl -u "pankajahuja1:aCxhDStUopf8tsyz4d55" -X POST 'https://api-cloud.browserstack.com/app-automate/upload' -F "file=@WikipediSample.apk" | jq .app_url | sed -e 's/^"//' -e 's/"$//'`
+  - export BROWSERSTACK_APP_ID=`curl -u "pankajahuja1:aCxhDStUopf8tsyz4d55" -X POST 'https://api-cloud.browserstack.com/app-automate/upload' -F "file=@WikipediaSample.apk" | jq .app_url | sed -e 's/^"//' -e 's/"$//'`
   - echo $BROWSERSTACK_APP_ID
